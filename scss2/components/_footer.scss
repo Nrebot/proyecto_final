@@ -1,0 +1,27 @@
+/*--------------FOOTER------------------------*/
+
+.footer{
+    background: #000000;
+    position:absolute;
+    
+    width:100%;
+    height:100px;
+    display: flex;
+    justify-content: center;
+}
+.footer .redes-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.footer .redes{
+    display: flex;
+    align-items: center;
+}
+
+.footer .redes li a img{
+    border-radius: 25px;
+    width: 25%;
+    height: 80%;
+}

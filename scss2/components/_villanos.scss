@@ -1,0 +1,45 @@
+/*------------VILLANOS------------------------*/
+
+
+.villain-container1{
+    @extend %info-seleccion-container
+}
+
+.villain-container div{
+    @extend %info-seleccion
+    
+}
+
+.villain-container2{
+    background-color: #171717;
+    display: none;
+    align-items: center;
+    border-top: 5px double #ccc;
+    padding: 0 4em;
+}
+.villain-container3{
+    background-color: #171717;
+    display: none;
+    align-items: center;
+    border-top: 5px double #ccc;
+    padding: 0 4em;
+}
+
+.villain-image-container1{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    width: 33.33%;
+    height: 100%;
+}
+.villain-image-container1 img{
+    height: 100%;
+    width: 50%;
+    border-radius: 25% 25% 25% 25%;
+    box-shadow: 5px 5px 5px #3ca0e7;
+    transition: all 1s;
+}
+
+.villain-image-container1 img:hover{
+    transform: rotate(360deg);
+}

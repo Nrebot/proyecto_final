@@ -1,0 +1,10 @@
+@mixin animation ($propiedad) {
+    -webkit-transform: $propiedad;
+    -o-transform: $propiedad;
+    -moz-transform: $propiedad;
+    transform: $propiedad;
+}
+
+.image-container img:hover{
+    @include animation(rotate(360deg))
+}
