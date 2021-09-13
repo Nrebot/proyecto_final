@@ -547,12 +547,51 @@ img:nth-child(6) {
     justify-content: flex-start;
     align-items: center;
   }
+  .hero-container1 iframe {
+    width: 100%;
+  }
 
   .hero-container1 > .text-container {
     display: none;
   }
 
   .hero-container1 > .image-container {
+    display: none;
+  }
+
+  .serie-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .serie-container1 iframe {
+    width: 100%;
+  }
+
+  .serie-container1 > .text-container {
+    display: none;
+  }
+
+  .serie-container1 > .image-container {
+    display: none;
+  }
+
+  .villain-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .villain-container1 iframe {
+    width: 100%;
+    padding-bottom: 0.5rem;
+  }
+  .villain-container1 .text-container {
+    display: none;
+  }
+
+  .villain-image-container1 img {
     display: none;
   }
 
